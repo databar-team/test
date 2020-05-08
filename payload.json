@@ -1,0 +1,335 @@
+{
+  "requester": "WorkOrderBacklog",
+  "jobId": "aa0059c0-9448-11e9-9d97-57b1be3d4f0a",
+  "workOrder": {
+    "workOrderId": "workOrderId-Test1",
+    "workOrderAction": "CREATE",
+    "dueDate": 12345667890,
+    "audioAndCaptionPreference": "NLD - Surround + Stereo + Closed Caption English (US)",
+    "profile": {
+      "name": "PS-002",
+      "id": "a1C54000001r1hQEA",
+      "packageCount": 1,
+      "componentCount": 13,
+      "packages": [
+        {
+          "name": "PEACOCK-LTA",
+          "versionType": "texted",
+          "conform": [
+            {
+              "name": "Peacock Conform",
+              "preRollRequired": "Yes",
+              "postRollRequired": "Yes",
+              "bugRequired": "Yes",
+              "headBlackLength": "00:00:02:00",
+              "breakBlackLength": "00:00:02:00",
+              "tailBlackLength": "00:00:02:00",
+              "audioAndCaptionHierarchy": [
+                {
+                  "materialType": "Episodic",
+                  "hierarchies": [
+                    {
+                      "index": 1,
+                      "proflieType": "preset",
+                      "profileName": "NLD - 51 + Stereo Eng + 51 + Stereo LAS + CC ENG + SUB LA",
+                      "audioEmbeddedTracks": [
+                        {
+                          "trackTypeName": "Surround Front English (US)",
+                          "trackTypeId": "SFR_EN-US",
+                          "languageAbbr": "ar-DZ",
+                          "ShortLanguageAbbr": "ar",
+                          "filePosition": 1,
+                          "channels": 2
+                        },
+                        {
+                          "trackTypeName": "Surround C/LFE English (US)",
+                          "trackTypeId": "SCN_EN-US",
+                          "languageAbbr": "ar-DZ",
+                          "ShortLanguageAbbr": "ar",
+                          "filePosition": 3,
+                          "channels": 2
+                        },
+                        {
+                          "trackTypeName": "Surround Rear English (US)",
+                          "trackTypeId": "SRE_EN-US",
+                          "languageAbbr": "ar-DZ",
+                          "ShortLanguageAbbr": "ar",
+                          "filePosition": 5,
+                          "channels": 2
+                        }
+                      ],
+                      "embeddedCaptionTracks": [
+                        {
+                          "trackTypeName": "Closed Caption English (US)",
+                          "trackTypeId": "SUB_ES-LA",
+                          "languageAbbr": "ar-DZ",
+                          "ShortLanguageAbbr": "ar",
+                          "filePosition": 7
+                        },
+                        {
+                          "trackTypeName": "Subtitle Spanish (Latin America)",
+                          "trackTypeId": "SUB_ES-LA",
+                          "languageAbbr": "es-LA",
+                          "ShortLanguageAbbr": "es",
+                          "filePosition": 8
+                        }
+                      ]
+                    },
+                    {
+                      "index": 2,
+                      "proflieType": "preset",
+                      "profileName": "NLD - Surround + Stereo + Closed Caption English (US)",
+                      "audioEmbeddedTracks": [
+                        {
+                          "trackTypeName": "Surround Front English (US)",
+                          "trackTypeId": "SFR_EN-US",
+                          "languageAbbr": "ar-DZ",
+                          "ShortLanguageAbbr": "ar",
+                          "filePosition": 1,
+                          "channels": 2
+                        },
+                        {
+                          "trackTypeName": "Surround C/LFE English (US)",
+                          "trackTypeId": "SCN_EN-US",
+                          "languageAbbr": "ar-DZ",
+                          "ShortLanguageAbbr": "ar",
+                          "filePosition": 3,
+                          "channels": 2
+                        }
+                      ],
+                      "embeddedCaptionTracks": [
+                        {
+                          "trackTypeName": "Closed Caption Spanish (Latin America)",
+                          "trackTypeId": "CCA_ES-LA",
+                          "languageAbbr": "es-LA",
+                          "ShortLanguageAbbr": "es",
+                          "filePosition": 6
+                        },
+                        {
+                          "trackTypeName": "Closed Caption English (US)",
+                          "trackTypeId": "CCA_EN-US",
+                          "languageAbbr": "ar-DZ",
+                          "ShortLanguageAbbr": "ar",
+                          "filePosition": 7
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "materialType": "Feature",
+                  "hierarchies": [
+                    {
+                      "index": 1,
+                      "proflieType": "preset",
+                      "profileName": "NLD - 51 + Stereo Eng + 51 + Stereo LAS + CC ENG + SUB LA",
+                      "audioEmbeddedTracks": [
+                        {
+                          "trackTypeName": "Surround C/LFE English (US)",
+                          "trackTypeId": "SCN_EN-US",
+                          "languageAbbr": "ar-DZ",
+                          "ShortLanguageAbbr": "ar",
+                          "filePosition": 3,
+                          "channels": 2
+                        },
+                        {
+                          "trackTypeName": "Surround Rear English (US)",
+                          "trackTypeId": "SRE_EN-US",
+                          "languageAbbr": "ar-DZ",
+                          "ShortLanguageAbbr": "ar",
+                          "filePosition": 5,
+                          "channels": 2
+                        }
+                      ],
+                      "embeddedCaptionTracks": [
+                        {
+                          "trackTypeName": "Closed Caption English (US)",
+                          "trackTypeId": "CCA_EN-US",
+                          "languageAbbr": "ar-DZ",
+                          "ShortLanguageAbbr": "ar",
+                          "filePosition": 7
+                        },
+                        {
+                          "trackTypeName": "Subtitle Spanish (Latin America)",
+                          "trackTypeId": "SUB_ES-LA",
+                          "languageAbbr": "es-LA",
+                          "ShortLanguageAbbr": "es",
+                          "filePosition": 8
+                        }
+                      ]
+                    },
+                    {
+                      "index": 2,
+                      "proflieType": "preset",
+                      "profileName": "NLD - Surround + Stereo + Closed Caption English (US)",
+                      "audioEmbeddedTracks": [
+                        {
+                          "trackTypeName": "Surround C/LFE English (US)",
+                          "trackTypeId": "SCN_EN-US",
+                          "languageAbbr": "ar-DZ",
+                          "ShortLanguageAbbr": "ar",
+                          "filePosition": 3,
+                          "channels": 2
+                        }
+                      ],
+                      "embeddedCaptionTracks": [
+                        {
+                          "trackTypeName": "Closed Caption Spanish (Latin America)",
+                          "trackTypeId": "CCA_ES-LA",
+                          "languageAbbr": "es-LA",
+                          "ShortLanguageAbbr": "es",
+                          "filePosition": 6
+                        },
+                        {
+                          "trackTypeName": "Closed Caption Spanish (Latin America)",
+                          "trackTypeId": "CCA_ES-LA",
+                          "languageAbbr": "es-LA",
+                          "ShortLanguageAbbr": "es",
+                          "filePosition": 6
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "transcode": [
+            {
+              "name": "Peacock Video",
+              "salesForceVideoSettingsName": "XDCAM",
+              "elementalProfile": "Peacock_XDCAM",
+              "videoCodec": "H_264",
+              "videoBitrate": 700,
+              "videoResolution": "1920 x 1080",
+              "videoContainer": "MP4",
+              "videoBitrateMode": "",
+              "videoStandard": "",
+              "videoChromaSubsampling": "",
+              "frameRate": 29.5,
+              "videoScanType": "",
+              "pixelAspectRatio": "",
+              "fileNamePattern": [
+                {
+                  "index": 1,
+                  "field": "title",
+                  "type": "dynamic"
+                }
+              ],
+              "delimiter": "",
+              "specialCharacterInTitleReplacement": ""
+            }
+          ],
+          "closedCaptions": [
+            {
+              "name": "Peacock Captions Sidecar English",
+              "format": "SMPTE TT",
+              "trackTypeName": "Closed Caption English (US)",
+              "trackTypeId": "CCA_EN-US",
+              "language": "Spanish",
+              "fileNamePattern": [
+                {
+                  "index": 1,
+                  "field": "title",
+                  "type": "dynamic"
+                }
+              ],
+              "delimiter": "",
+              "specialCharacterInTitleReplacement": ""
+            }
+          ],
+          "images": [
+            {
+              "name": "Peacock Image",
+              "format": "",
+              "imageResolution": "",
+              "imageLevel": "",
+              "imageType": "",
+              "fileNamePattern": [
+                {
+                  "index": 1,
+                  "field": "title",
+                  "type": "dynamic"
+                }
+              ],
+              "delimiter": "",
+              "specialCharacterInTitleReplacement": ""
+            }
+          ],
+          "metadata": [
+            {
+              "name": "Peacock Metadata",
+              "etlSchemaName": "peacock-schema",
+              "partner": "Peacock",
+              "fileNamePattern": [
+                {
+                  "index": 1,
+                  "field": "title",
+                  "type": "dynamic"
+                }
+              ],
+              "delimiter": "",
+              "specialCharacterInTitleReplacement": ""
+            }
+          ],
+          "delivery": [
+            {
+              "name": "Peacock Delivery",
+              "deliveryType": "S3_TO_NETSTORAGE",
+              "targetPath": "/200702/prod/watchfolder",
+              "targetServer": "tveusa-nsu.akamaihd.net",
+              "failureEmails": [
+                "failure@nbcuni.com"
+              ],
+              "sucessEmails": [
+                "success@nbcuni.com"
+              ],
+              "hostName": "",
+              "targetRelayAgent": "",
+              "jobName": "",
+              "sourceAgent": "",
+              "deliveryMaxBitrate": "",
+              "tcpPort": 80,
+              "customFileDeliveryOrder": [
+                {
+                  "index": 0,
+                  "type": "VIDEO"
+                },
+                {
+                  "index": 1,
+                  "type": "CAPTION"
+                },
+                {
+                  "index": 2,
+                  "type": "IMAGE"
+                },
+                {
+                  "index": 1,
+                  "type": "METADATA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "requiredComponents": [
+      "video",
+      "cc"
+    ],
+    "title": "TWELVE DAYS OF KRAMPUS",
+    "metadataApproved": true,
+    "priority": 1,
+    "deliveryRequired": true,
+    "pxfInfo": "<?xml version=\"1.0\"?> <PharosCs> <CommandList sessionKey=\"127.0.0.1-8e0ae496-ad87-457a-a9bf-14fc68b98dd7\"> <Command executionTime=\"0.226453927\" generalType=\"Placing\" method=\"get\" subsystem=\"placing\" success=\"true\" type=\"response\"> <Output> <Placing id=\"389530\"> <PlacingId>TL-T34724-AXP89-393894408</PlacingId> <StateName>Ordered</StateName> <StartDate>2020-01-21T04:59:59.000</StartDate> <StateMachine>Content Distribution</StateMachine> <EndDate>9999-12-31T23:00:00.000</EndDate> <UserName>system</UserName> <CreatedDate>2020-01-20T15:41:20.000</CreatedDate> <LastEdited>2020-01-20T15:41:20.000</LastEdited> <DeleteMark>0</DeleteMark> <AutoPlacing>false</AutoPlacing> <PlacingParcelList/> <TagList> <Tag id=\"121862\"> <TagType>Delivery Type</TagType> <Value>Digital</Value> <Ordinality>1</Ordinality> <TimeAdded>2018-03-02T15:47:48.000</TimeAdded> <Type>set</Type> </Tag> </TagList> <ShortTextList> <ShortText id=\"14381934\"> <Key>14381934</Key> <ShortTextType>Asset Share</ShortTextType> <Value>false</Value> <Ordinality>1</Ordinality> <Type>boolean</Type> </ShortText> </ShortTextList> <FullTextList> <FullText id=\"1317317\"> <Key>1317317</Key> <FullTextType>Location Override</FullTextType> <Ordinality>1</Ordinality> <Type>text</Type> </FullText> </FullTextList> <ProfileStatus> <Name>TL-T34724-AXP89-393894408</Name> <Result>ok</Result> <Statuses/> </ProfileStatus> <ProfilePolicy>Destination</ProfilePolicy> <StateNameI18nKey>state.ordered</StateNameI18nKey> <StateMachineId>140</StateMachineId> <StateId>56</StateId> <Notes/> </Placing> </Output> </Command> </CommandList> </PharosCs>",
+    "videoSource": [
+      {
+        "id": "DBRO_0000000001234_01",
+        "TVDNumber": "A923"
+      }
+    ]
+  },
+  "rawMaterialMetadataInputFile": "s3://cp-workfolder-pr-44-bf5c7/SQE_AT_VS_1588887140950_0/1588887140840.0/materials/rawMaterialMetadataFile.json",
+  "materialMetadataOutputFile": "s3://cp-workfolder-pr-44-bf5c7/SQE_AT_VS_1588887140950_0/1588887140840.0/materials/materialMetadata.json",
+  "jobContext": {}
+}
